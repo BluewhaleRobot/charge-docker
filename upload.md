@@ -28,5 +28,6 @@ typedef struct {
     float distance1;           //超声波模块测距值，单位mm。
     float distance2;           //保留，扩展用。
     unsigned int time_stamp;   //时间戳,单位为2毫秒，用于统计丢包率。
+    unsigned int version;   //版本号，当前为3。
 }UPLOAD_STATUS;
 ```
